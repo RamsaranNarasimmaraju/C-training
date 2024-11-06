@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Threads
 {
-    internal class Ourclass
+    public static class Ourclass
     {
+        public static void Display()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
